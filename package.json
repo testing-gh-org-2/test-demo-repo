@@ -1,0 +1,31 @@
+{
+  "name": "security-test-project",
+  "version": "1.0.0",
+  "description": "Test project with known vulnerable dependencies for security scanning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dabh/diagnostics": "^2.0.8",
+    "@rc-component/portal": "^1.1.2",
+    "@rushstack/terminal": "^0.15.2",
+    "@sequelize/mariadb": "^7.0.0-alpha.47",
+    "clone": "^2.1.2",
+    "lodash": "4.17.15",
+    "axios": "0.21.0",
+    "minimist": "1.2.5",
+    "node-fetch": "2.6.0",
+    "@types/react": "19.2.0",
+    "@babel/core": "7.12.0",
+    "@babel/types": "7.12.0",
+    "@babel/helper-validator-identifier": "7.28.5"
+  },
+  "devDependencies": {
+    "marked": "0.7.0",
+    "highlight.js": "9.18.1"
+  },
+  "keywords": ["security", "testing", "cve"],
+  "author": "",
+  "license": "ISC"
+}
